@@ -236,13 +236,13 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 
   function saveProgress() {
-    localStorage.setItem("MonthsSxp", xp);
-    localStorage.setItem("MonthsSlevel", level);
+    localStorage.setItem("weatherSxp", xp);
+    localStorage.setItem("weatherlevel", level);
   }
 
   function loadProgress() {
-    const savedXP = localStorage.getItem("MonthsSxp");
-    const savedLevel = localStorage.getItem("MonthsSlevel");
+    const savedXP = localStorage.getItem("weatherSxp");
+    const savedLevel = localStorage.getItem("weatherSlevel");
 
     if (savedXP !== null) xp = parseInt(savedXP, 10);
     if (savedLevel !== null) level = parseInt(savedLevel, 10);
@@ -311,3 +311,4 @@ window.addEventListener("DOMContentLoaded", () => {
     }
   }
 });
+
