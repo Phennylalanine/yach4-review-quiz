@@ -3,12 +3,14 @@ window.addEventListener("DOMContentLoaded", () => {
 
   // Array of quiz levels with multipliers and keys matching data-key in HTML
   const quizData = [
-    { key: "monthsSlevel", multiplier: 0.6 },
-    { key: "EventSlevel", multiplier: 0.6 },
-    { key: "monthsMlevel", multiplier: 1.2 },
-    { key: "eventsMlevel", multiplier: 1.2 },
-      { key: "TypingLevel_Level1", multiplier: 0.2 },
-    { key: "TypingLevel_Level2", multiplier: 0.3 }
+    { key: "weathersSlevel", multiplier: 0.3 },
+    { key: "daySlevel", multiplier: 0.3 },
+     { key: "timeSlevel", multiplier: 0.3 },
+    { key: "weatherMlevel", multiplier: 0.5 },
+    { key: "dayMlevel", multiplier: 0.5 },
+    { key: "timeMlevel", multiplier: 0.5 },
+      { key: "TypingLevel_Level1", multiplier: 0.1 },
+    
   ];
 
   // Calculate weighted overall level
