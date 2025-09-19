@@ -1,7 +1,7 @@
 jp,en
 何,what
 時間,time
-時ちょうど,o'clock
+~時ちょうど,o'clock
 起きる,wake up
 朝食,breakfast
 勉強する,study
@@ -12,3 +12,4 @@ jp,en
 お風呂,bath
 ねる,sleep
 夢,dream
+
